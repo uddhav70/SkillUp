@@ -1,0 +1,181 @@
+
+.banner-image{
+    background: linear-gradient(180deg, #4b93f1, #ff6de9);
+    background-size: cover;
+}
+.height{
+    height: 45vh;
+}
+
+.navbar{
+    transition: 0.5s;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+li{
+    padding: 10px;
+}
+
+.nav-link{
+    font-size: 20px;
+    border-radius: 10px;
+}
+.nav-link:hover{
+    background-color: #fd9f67;
+    transition: 0.8s;
+}
+
+.ms-auto {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.btn{
+    box-shadow: inset 0 0 0 0 #b556ff;
+    transition: ease-out 1s;
+    background-color: #fd9f67;
+    color: #ffffff;
+}
+
+.login-deco{
+    text-decoration: none;
+    color: white;
+}
+
+.login-deco:hover{
+    color: white;
+}
+
+.btn:hover{
+    box-shadow: inset 300px 0 0 0 #b556ff;
+    border: solid 1px #b556ff;
+}
+
+.back-search{
+    border-radius: 25px;
+    background-color: white;
+    padding: 7px 11px;
+}
+
+input.searchbox {
+    border: solid 0px white;
+    outline: white;
+    padding: 8px;
+}
+
+.searchicon{
+    background-color: #0c6efd;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 8px 12px;
+}
+
+.searchicon:hover{
+    transition: 0.5s;
+    background-color: #fd9f67;
+}
+
+
+.text-white{
+    font-size: 50px;
+}
+.size{
+    font-size: 15px;
+}
+.buy,a{
+    text-decoration: none;
+}
+
+.color-heart{
+    color: #c86fff;
+}
+
+.footer{
+    background-color: #4255a4;
+    padding: 40px 70px;
+}
+
+.get-touch {
+    color: #4255a4;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.contact-btn{
+    padding: 18px 50px;
+    background-color: white;
+    border: solid 2px #c86fff;
+}
+
+.contact-btn:hover{
+    background-color: #c86fff;
+    transition: 0.5s;
+}
+
+
+.submit-btn{
+    color: rgb(0, 60, 255);
+    font-weight: bold;
+}
+
+
+
+
+
+
+@media only screen and (max-width:992px){
+    nav{
+        background-color:#212224;
+    }
+
+    /* .searchbox{
+        margin: 5px;
+        width: 85%;
+    }
+
+    .searchicon{
+        padding: 20px 22px; 
+        border-radius: 30px;
+    } */
+
+}
+
+/* @media only screen and (max-width:768px){
+    .searchbox{
+        margin: 5px;
+        width: 80%;
+    }
+
+    .searchicon{
+        padding: 15px 22px; 
+        border-radius: 30px;
+    }
+}
+
+@media only screen and (max-width:438px){
+    .searchbox{
+        margin: 5px;
+        width: 75%;
+    }
+
+    .searchicon{
+        padding: 15px 22px; 
+        border-radius: 30px;
+    }
+} 
+
+@media only screen and (max-width:368px){
+    .searchbox{
+        margin: 5px;
+        width: 70%;
+    }
+
+    .searchicon{
+        padding: 15px 22px; 
+        border-radius: 30px;
+    }
+}  */

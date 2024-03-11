@@ -1,0 +1,51 @@
+.gradient-custom{
+    background: linear-gradient(90deg, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+}
+
+.login-section {
+    /* height: 700px; */
+    border-radius: 25px;
+    background: #212529;
+}
+
+.login {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.lable {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.input-text{
+    text-align: center;
+}
+.input-text-1{
+    background: #212529;
+    border: solid 3px white;
+    padding: 10px 6px;
+    width: 70%;
+    color: white;
+    outline: none;
+}
+.margin{
+    margin-left: 15%;
+}
+
+.btn-login{
+    margin-left: 19%;
+}
+.btn{
+    padding: 2% 32%;
+}
+
+.bottom-text{
+    margin-top: 30%;
+}
+
+.bottom-text-signup{
+    margin-top: 4%;
+}
